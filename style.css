@@ -12,6 +12,7 @@
     line-height: 1.8 em;
     color: #666;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
   }
 
   h1 {
@@ -40,11 +41,6 @@
   .topnav a:hover {
     background-color: white;
     color: black;
-  }
-
-  .active, a:hover {
-    background-color: #333;
-    color: white;
   }
   
   .topnav .icon {
@@ -93,12 +89,12 @@
 
 .about {
     background-image: url("img/hand.jpeg");
-    min-height: 400px;
+    min-height: 450px;
 }
 
 .projects {
     background-image: url("img/quizMockUp.jpg");
-    min-height: 100%;
+    min-height: 460px;
 }
 
 .contact {
@@ -149,6 +145,7 @@
 
 h2 {
     text-align: center;
+    margin: 0;
 }
 
 a:link, a:visited {
@@ -164,10 +161,6 @@ a:link, a:visited {
     color: white;
 }
 
-.scrollContainer {
-    scroll-snap-type: y mandatory;
-}
-
-.aboutText {
-    scroll-snap-align: start;
+#about, #projects, #contact {
+  scroll-margin: 40px;
 }

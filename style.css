@@ -158,6 +158,7 @@ a:link, a:visited {
 }
 
 .section-light a:hover {
+    background-color: #333;
     color: white;
 }
 

@@ -129,6 +129,11 @@
     color: white;
 }
 
+.section-dark a:hover {
+  background-color: white;
+  color: black;
+}
+
 .text {
     position: absolute;
     top: 50%;

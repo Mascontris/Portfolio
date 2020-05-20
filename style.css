@@ -182,7 +182,7 @@ a:link, a:visited {
 }
 
 @media screen and (max-height: 1400px) {
-  #links {
+  #links, #about{
     margin-bottom: 600px;
   }
 }

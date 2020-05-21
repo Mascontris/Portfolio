@@ -191,12 +191,7 @@ a:link, a:visited {
    float: left;
  }
 
- .capDesc {
-  overflow: hidden;
- }
-
- 
- .capLinks {
+ .capDesc, .capLinks {
   overflow: hidden;
  }
 
@@ -204,6 +199,13 @@ a:link, a:visited {
    overflow: hidden;
    margin-bottom: 20px;
  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .capstones {
+    height: 30em;
+  }
 }
 
 @media screen and (min-height: 1024px) {
